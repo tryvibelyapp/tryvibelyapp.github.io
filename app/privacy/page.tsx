@@ -361,10 +361,10 @@ export default function PrivacyPage() {
         Aibek Mazhitov
         <br />
         <a
-          href="mailto:contact@moonkata.com"
+          href="mailto:heyaibek@gmail.com"
           className="underline underline-offset-4 hover:opacity-80"
         >
-          contact@moonkata.com
+          heyaibek@gmail.com
         </a>
       </p>
     </div>
