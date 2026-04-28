@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 
 const siteUrl = new URL("https://tryvibely.app");
 const siteName = "Vibely - Music Visualizer";
+const siteBannerURL = "/assets/banner.jpg";
 const title = "Vibely - Music Visualizer";
 const description = "Music Video Maker for Creators";
 const keywords = [
@@ -63,9 +64,9 @@ export const metadata: Metadata = {
     siteName: siteName,
     images: [
       {
-        url: "/assets/logo.png",
+        url: siteBannerURL,
         width: 1024,
-        height: 1024,
+        height: 629,
         alt: "Logo",
       },
     ],
@@ -74,7 +75,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: title,
     description: description,
-    images: ["/assets/logo.png"],
+    images: [siteBannerURL],
   },
   robots: {
     index: true,
