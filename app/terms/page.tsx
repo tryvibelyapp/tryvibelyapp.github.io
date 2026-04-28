@@ -18,10 +18,10 @@ export default function TermsPage() {
         These Terms of Service govern your use of Vibely - Music Visualizer, our
         website located at{" "}
         <a
-          href="https://moonkata.com/apps/vibely"
+          href="https://tryvibely.app"
           className="underline underline-offset-4 hover:opacity-80"
         >
-          https://moonkata.com/apps/vibely
+          https://tryvibely.app
         </a>
         , and any related services provided by Aibek Mazhitov.
       </p>
@@ -56,15 +56,48 @@ export default function TermsPage() {
         these Terms of Service, and your users that you will not:
       </p>
       <ol className="max-w-2xl list-decimal ml-6 space-y-2 text-base leading-7 text-zinc-600 dark:text-zinc-400">
-        <li>modify, copy, prepare derivative works of, decompile, or reverse engineer Vibely - Music Visualizer or any materials and software contained within Vibely - Music Visualizer or on our website;</li>
-        <li>remove any copyright or other proprietary notations from Vibely - Music Visualizer or any materials and software contained within Vibely - Music Visualizer or on our website;</li>
-        <li>transfer Vibely - Music Visualizer or any of its associated materials to another person or &quot;mirror&quot; the materials on any other server;</li>
-        <li>knowingly or negligently use Vibely - Music Visualizer or any of its associated services in a way that abuses or disrupts our networks or any other service Aibek Mazhitov provides;</li>
-        <li>use Vibely - Music Visualizer or its associated services to transmit or publish any harassing, indecent, obscene, fraudulent, or unlawful material;</li>
-        <li>use Vibely - Music Visualizer or its associated services in violation of any applicable laws or regulations;</li>
-        <li>use Vibely - Music Visualizer to send unauthorized advertising or spam;</li>
-        <li>harvest, collect, or gather user data without the user&apos;s consent; or</li>
-        <li>use Vibely - Music Visualizer or its associated services in such a way that may infringe the privacy, intellectual property rights, or other rights of third parties.</li>
+        <li>
+          modify, copy, prepare derivative works of, decompile, or reverse
+          engineer Vibely - Music Visualizer or any materials and software
+          contained within Vibely - Music Visualizer or on our website;
+        </li>
+        <li>
+          remove any copyright or other proprietary notations from Vibely -
+          Music Visualizer or any materials and software contained within Vibely
+          - Music Visualizer or on our website;
+        </li>
+        <li>
+          transfer Vibely - Music Visualizer or any of its associated materials
+          to another person or &quot;mirror&quot; the materials on any other
+          server;
+        </li>
+        <li>
+          knowingly or negligently use Vibely - Music Visualizer or any of its
+          associated services in a way that abuses or disrupts our networks or
+          any other service Aibek Mazhitov provides;
+        </li>
+        <li>
+          use Vibely - Music Visualizer or its associated services to transmit
+          or publish any harassing, indecent, obscene, fraudulent, or unlawful
+          material;
+        </li>
+        <li>
+          use Vibely - Music Visualizer or its associated services in violation
+          of any applicable laws or regulations;
+        </li>
+        <li>
+          use Vibely - Music Visualizer to send unauthorized advertising or
+          spam;
+        </li>
+        <li>
+          harvest, collect, or gather user data without the user&apos;s consent;
+          or
+        </li>
+        <li>
+          use Vibely - Music Visualizer or its associated services in such a way
+          that may infringe the privacy, intellectual property rights, or other
+          rights of third parties.
+        </li>
       </ol>
       <h3 className="text-xl font-semibold mt-6">Intellectual Property</h3>
       <p className="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-400">
@@ -138,8 +171,8 @@ export default function TermsPage() {
       <h3 className="text-xl font-semibold mt-6">Right to Terminate</h3>
       <p className="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-400">
         We may suspend or terminate your right to use Vibely - Music Visualizer
-        and these Terms of Service immediately upon written notice to you for any
-        breach of these Terms of Service.
+        and these Terms of Service immediately upon written notice to you for
+        any breach of these Terms of Service.
       </p>
 
       <h3 className="text-xl font-semibold mt-6">Severance</h3>
