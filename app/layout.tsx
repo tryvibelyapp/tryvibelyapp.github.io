@@ -135,7 +135,7 @@ export default function RootLayout({
             {children}
             <div className="w-full border-t border-zinc-200 dark:border-zinc-800" />
             <footer className="flex flex-col gap-6 items-center sm:items-start">
-              <div className="flex flex-col gap-2 text-base font-medium flex-row">
+              <div className="flex flex-row flex-wrap justify-center gap-2 text-base font-medium sm:justify-start">
                 <Link href="/">Home</Link>
                 <span>·</span>
                 <Link href="/support">Support</Link>
@@ -143,6 +143,8 @@ export default function RootLayout({
                 <Link href="/privacy">Privacy</Link>
                 <span>·</span>
                 <Link href="/terms">Terms</Link>
+                <span>·</span>
+                <Link href="/impressum">Impressum</Link>
               </div>
               <p className="font-mono text-xs">
                 Built with ❤️ by Aibek &copy; {new Date().getFullYear()}
