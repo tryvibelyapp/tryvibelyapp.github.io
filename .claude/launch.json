@@ -6,6 +6,12 @@
       "runtimeExecutable": "yarn",
       "runtimeArgs": ["dev"],
       "port": 3000
+    },
+    {
+      "name": "slouly",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["--cwd", "../trysloulyapp.github.io", "dev"],
+      "port": 3000
     }
   ]
 }
