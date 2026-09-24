@@ -13,7 +13,7 @@ export const EFFECTIVE_DATE = "22 September 2026";
 
 export function LegalPage({ children }: { children: ReactNode }) {
   return (
-    <div className="flex flex-col gap-6 text-zinc-900 dark:text-zinc-100">
+    <div className="flex w-full min-w-0 flex-col gap-6 text-zinc-900 dark:text-zinc-100">
       {children}
     </div>
   );

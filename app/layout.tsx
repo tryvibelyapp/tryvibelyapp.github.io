@@ -119,7 +119,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-          <main className="flex flex-1 w-full max-w-3xl flex-col items-center gap-6 py-16 px-16 bg-white dark:bg-black sm:items-start">
+          <main className="flex min-w-0 flex-1 w-full max-w-3xl flex-col items-center gap-6 py-16 px-16 bg-white dark:bg-black sm:items-start">
             <header className="w-full flex justify-center sm:justify-start">
               <Link href="/" aria-label="Go to home">
                 <Image
