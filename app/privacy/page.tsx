@@ -63,13 +63,19 @@ export default function PrivacyPage() {
         </li>
         <li>
           <strong>No ads, no tracking, no selling.</strong> The app contains no
-          advertising, no analytics and no tracking across other apps or
-          websites. We do not sell or rent your data to anyone.
+          advertising and no tracking across other apps or websites. We do not
+          sell or rent your data to anyone.
         </li>
         <li>
-          <strong>Crash reports only.</strong> If the app crashes, a technical
-          crash report is sent so we can fix the bug. You can turn this off in
+          <strong>Crash reports.</strong> If the app crashes, a technical crash
+          report is sent so we can fix the bug. You can turn this off in
           Settings.
+        </li>
+        <li>
+          <strong>Usage data only if you say yes.</strong> If you turn it on,
+          the app sends anonymous usage data, such as which layers and effects
+          you use, so we can make Vibely better. It is off until you turn it on,
+          and you can turn it off again at any time in Settings.
         </li>
         <li>
           <strong>Payments go through Apple.</strong> We never see your name,
@@ -138,6 +144,14 @@ export default function PrivacyPage() {
           storage, device orientation, whether the app was in the foreground),
         </li>
         <li>
+          a short list of your last actions in the app before the crash, so
+          we can retrace the steps that led to it: which screen was open, which
+          button or control you used and, where it applies, which layer, effect
+          or setting it was about and the value you chose (for example
+          “editor operation setSetting layerType=snow
+          setting=transforms.opacity value=0.8”),
+        </li>
+        <li>
           a random installation ID created by Crashlytics, so repeated crashes
           on the same device can be counted as one affected user,
         </li>
@@ -147,8 +161,9 @@ export default function PrivacyPage() {
         </li>
       </UL>
       <P>
-        A crash report never contains your songs, videos, photos, text, projects
-        or any content you created. It does not contain your name, email address
+        A crash report never contains your songs, videos, photos, text you
+        type, fonts, file names, song or project titles, or any other content
+        you created. It does not contain your name, email address
         or Apple ID. We cannot use it to find out who you are.
       </P>
       <P>
@@ -166,7 +181,7 @@ export default function PrivacyPage() {
         in the app under Projects menu {">"} Settings {">"} Privacy {">"} Share
         Crash Reports. When you turn it off, reports that were not sent yet are
         deleted and no further reports are sent. You can also object at any time
-        (see Section 13).
+        (see Section 14).
       </P>
       <P>
         <strong>How long.</strong> Google keeps crash reports for 90 days, then
@@ -178,7 +193,90 @@ export default function PrivacyPage() {
         information: <A href="https://firebase.google.com/support/privacy" />
       </P>
 
-      <Section>6. Purchases (Vibely Pro)</Section>
+      <Section>6. Usage data (Firebase Analytics)</Section>
+      <P>
+        <strong>Only with your consent.</strong> Usage data is off until you
+        turn it on, either with the “Help make Vibely better” switch on the
+        first screen of the app or under Projects menu {">"} Settings {">"}{" "}
+        Privacy {">"} Share Usage Data. Nothing described in this section is
+        collected or sent before that.
+      </P>
+      <P>
+        <strong>What.</strong> While usage data is on, the app sends it to
+        Firebase Analytics (Google Analytics for Firebase), a service of Google
+        Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+        (“Google”). It contains:
+      </P>
+      <UL>
+        <li>
+          what you do in the app, one event per action: which screen was open,
+          which button or control you used and, where it applies, which
+          template, layer, effect or setting it was about (for example
+          “added the Glow effect”),
+        </li>
+        <li>
+          the values you choose for settings that are numbers, switches,
+          choices or colors (for example a glow strength of 40% or the color
+          blue), and where on the video you moved a layer,
+        </li>
+        <li>
+          outcomes, such as whether an export finished, failed or was
+          cancelled, whether the Vibely Pro screen was closed or used to buy,
+          and which kind of error message was shown (its title, not its text),
+        </li>
+        <li>
+          events Firebase records by itself: first launch, app sessions and
+          their length, which screens are shown, app and iOS updates, and
+          in-app purchases (product, price and currency, never who paid),
+        </li>
+        <li>
+          device model, iOS version, app version, language, and your
+          approximate region (country and city), which Google works out from
+          your IP address,
+        </li>
+        <li>
+          a random app instance ID created by Firebase, so actions from the
+          same installation can be counted together.
+        </li>
+      </UL>
+      <P>
+        Usage data never contains your songs, videos, photos, text you type,
+        fonts, file names, song or project titles, or any other content you
+        created, and never your name, email address or Apple ID. The app does
+        not use the advertising identifier (IDFA) or the vendor identifier
+        (IDFV), and ad storage, ad personalization and Google Signals are
+        turned off. We do not use the data for advertising and cannot use it to
+        find out who you are.
+      </P>
+      <P>
+        <strong>Why.</strong> To learn which features are used, where people
+        get stuck and what goes wrong, so we can improve Vibely.
+      </P>
+      <P>
+        <strong>Legal basis.</strong> Your consent (Article 6(1)(a) GDPR, and
+        Section 25(1) TDDDG for storing and reading the app instance ID on
+        your device).
+      </P>
+      <P>
+        <strong>Your choice.</strong> You can withdraw your consent at any time
+        by turning off Share Usage Data in the app’s Settings. From then
+        on, no further usage data is sent. Withdrawing does not affect the data
+        sent before.
+      </P>
+      <P>
+        <strong>How long.</strong> Google deletes usage data linked to the app
+        instance ID after 14 months and keeps only totals that cannot be traced
+        back to an installation (for example how many people used an effect). To analyze it, we may copy it to Google BigQuery, a Google
+        database service covered by the same terms, where it is also deleted
+        after 14 months.
+      </P>
+      <P>
+        <strong>Processor.</strong> Google processes this data on our behalf
+        under the Google Cloud and Firebase data processing terms. More
+        information: <A href="https://firebase.google.com/support/privacy" />
+      </P>
+
+      <Section>7. Purchases (Vibely Pro)</Section>
       <P>
         Vibely Pro subscriptions and the lifetime purchase are sold and
         processed by Apple through the App Store. Apple handles payment,
@@ -201,7 +299,7 @@ export default function PrivacyPage() {
         <A href="https://www.apple.com/legal/privacy/" />
       </P>
 
-      <Section>7. Unsplash photos</Section>
+      <Section>8. Unsplash photos</Section>
       <P>
         In the editor you can search Unsplash for free photos. When you do this,
         your device connects directly to Unsplash Inc. (Canada). Unsplash
@@ -218,7 +316,7 @@ export default function PrivacyPage() {
         <A href="https://unsplash.com/privacy" />
       </P>
 
-      <Section>8. Sharing, templates and other apps</Section>
+      <Section>9. Sharing, templates and other apps</Section>
       <P>
         <strong>Exported videos.</strong> You decide where your videos go. When
         you save a video to Photos or the Files app, or share it through the iOS
@@ -244,7 +342,7 @@ export default function PrivacyPage() {
         file. Templates you import are read on your device only.
       </P>
 
-      <Section>9. Website and in-app links</Section>
+      <Section>10. Website and in-app links</Section>
       <P>
         <strong>Hosting.</strong> The website tryvibely.app, including the
         Privacy, Terms and Support pages that the app opens, is hosted by GitHub
@@ -281,7 +379,7 @@ export default function PrivacyPage() {
         <A href="https://www.facebook.com/legal/terms/information_about_page_insights_data" />
       </P>
 
-      <Section>10. Contacting support</Section>
+      <Section>11. Contacting support</Section>
       <P>
         If you email us, we receive your email address, your name if you include
         it, your message and anything you attach. We use this only to answer you
@@ -299,7 +397,7 @@ export default function PrivacyPage() {
         them longer by law.
       </P>
 
-      <Section>11. Free Vibely Pro promotion</Section>
+      <Section>12. Free Vibely Pro promotion</Section>
       <P>
         From time to time we give Vibely Pro offer codes to people who follow
         our TikTok account and join our Discord server. Taking part is voluntary
@@ -356,7 +454,7 @@ export default function PrivacyPage() {
         <strong>Age.</strong> You must be at least 16 years old to take part.
       </P>
 
-      <Section>12. International transfers</Section>
+      <Section>13. International transfers</Section>
       <P>
         Some of the providers above are based in the USA or send data there
         (Google LLC, GitHub, Inc., Discord Inc.). Where a provider is certified
@@ -367,7 +465,7 @@ export default function PrivacyPage() {
         covered by an adequacy decision.
       </P>
 
-      <Section>13. Your rights</Section>
+      <Section>14. Your rights</Section>
       <P>Under the GDPR you have the right to:</P>
       <UL>
         <li>
@@ -395,11 +493,12 @@ export default function PrivacyPage() {
         your data based on our legitimate interest (Article 6(1)(f) GDPR), you
         can object at any time for reasons arising from your particular
         situation. For crash reports, simply turn off Share Crash Reports in the
-        app’s Settings.
+        app’s Settings. Usage data is based on your consent, which you
+        withdraw by turning off Share Usage Data.
       </P>
       <P>
-        To use your rights, email <Email />. Please note: because crash reports
-        and App Store data do not identify you, we usually cannot link them to
+        To use your rights, email <Email />. Please note: because crash reports,
+        usage data and App Store data do not identify you, we usually cannot link them to
         you (Article 11 GDPR). Data that exists only on your device is fully in
         your control and can be deleted by you at any time.
       </P>
@@ -410,10 +509,13 @@ export default function PrivacyPage() {
         GDPR).
       </P>
 
-      <Section>14. What Vibely does not do</Section>
+      <Section>15. What Vibely does not do</Section>
       <UL>
         <li>no advertising and no ad networks,</li>
-        <li>no analytics or usage tracking in the app or on the website,</li>
+        <li>
+          no analytics on the website, and in the app only the usage data you
+          agree to (Section 6),
+        </li>
         <li>
           no tracking across apps or websites and no advertising identifier,
         </li>
@@ -428,25 +530,25 @@ export default function PrivacyPage() {
         </li>
       </UL>
 
-      <Section>15. Children</Section>
+      <Section>16. Children</Section>
       <P>
         The app does not require any personal data, so it can be used by anyone
         the App Store age rating allows. We do not knowingly collect personal
-        data from children. The promotion in Section 11 is only for people aged
+        data from children. The promotion in Section 12 is only for people aged
         16 and over. If you believe a child has sent us personal data, please
         contact us and we will delete it.
       </P>
 
-      <Section>16. Security</Section>
+      <Section>17. Security</Section>
       <P>
-        Data sent to Crashlytics, Unsplash and our website is encrypted in
+        Data sent to Crashlytics, Firebase Analytics, Unsplash and our website is encrypted in
         transit (HTTPS). Access to the promotion sheet and support email is
         limited to the developer. Content in the app stays on your device and is
         protected by your device’s own security, such as your passcode and
         iOS data protection.
       </P>
 
-      <Section>17. Changes to this policy</Section>
+      <Section>18. Changes to this policy</Section>
       <P>
         We update this policy when Vibely changes how it handles data, for
         example if we add a new feature or service provider. The effective date
@@ -455,7 +557,7 @@ export default function PrivacyPage() {
         takes effect.
       </P>
 
-      <Section>18. Contact</Section>
+      <Section>19. Contact</Section>
       <P>
         <Address />
         <br />

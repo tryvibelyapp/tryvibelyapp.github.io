@@ -9,7 +9,7 @@ export const LEGAL_ADDRESS = [
   "12159 Berlin",
   "Germany",
 ];
-export const EFFECTIVE_DATE = "22 September 2026";
+export const EFFECTIVE_DATE = "12 October 2026";
 
 export function LegalPage({ children }: { children: ReactNode }) {
   return (
