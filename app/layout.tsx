@@ -63,9 +63,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: siteBannerURL,
-        width: 1024,
-        height: 629,
-        alt: "Logo",
+        width: 1800,
+        height: 1200,
+        alt: "Vibely - Make your music visible",
       },
     ],
   },
