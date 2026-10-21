@@ -1,0 +1,145 @@
+export const meta = {
+  title: "The editor at a glance",
+  description:
+    "A tour of the Vibely editor on iPhone: the preview, the timeline with the song, background and layer rows, and the buttons along the top and bottom.",
+  order: 1,
+};
+
+The editor is where a project comes together. It opens when you open a project, use a template or start a blank one. The video plays at the top, the timeline sits below it, and the buttons along the top and bottom change with what you have selected. Vibely saves your work as you go.
+
+## With nothing selected
+
+<Screenshot
+  src="/screenshots/handbook/editor.png"
+  alt="The editor with nothing selected: Close and Export Settings at the top, the preview, the current time, the timeline, and Full-Screen Preview, Camera, Effects and Play at the bottom"
+  markers={[
+    { x: 0.165, y: 0.075 },
+    { x: 0.77, y: 0.075 },
+    { x: 0.05, y: 0.26 },
+    { x: 0.65, y: 0.565 },
+    { x: 0.44, y: 0.654 },
+    { x: 0.44, y: 0.7 },
+    { x: 0.44, y: 0.792 },
+    { x: 0.21, y: 0.9 },
+    { x: 0.425, y: 0.9 },
+    { x: 0.57, y: 0.9 },
+    { x: 0.87, y: 0.9 },
+  ]}
+/>
+
+<MarkerHeading n={1}>Close</MarkerHeading>
+
+Takes you back to the Projects screen. Your project is already saved, so there is nothing to confirm.
+
+<MarkerHeading n={2}>Export Settings</MarkerHeading>
+
+Opens the export settings: the **Resolution** (from SD up to UHD, with its size in pixels), the **Frame rate** (30 or 60 FPS) and an **Estimated file size**. Tap **Export** there to make the video. Exporting needs Vibely Pro.
+
+<MarkerHeading n={3}>Preview</MarkerHeading>
+
+Your video as it will look. Select a layer and you can drag it here to move it, or pinch to resize it.
+
+<MarkerHeading n={4}>Current time</MarkerHeading>
+
+Where you are in the video, over its whole length, in minutes, seconds and frames.
+
+<MarkerHeading n={5}>The song row</MarkerHeading>
+
+The first row of the timeline is your song, with its name and its waveform. Tap it to open the **Music** panel: **Replace Music** picks another song (from Files, from a video, or from elsewhere), **Trim** chooses the part of the song that plays, and **Audio Mix** fades the song in and out.
+
+<MarkerHeading n={6}>The background row</MarkerHeading>
+
+The background video, always the second row, showing the video's frames once you have chosen one. Tap it to select it, then use its **Settings** to choose a video from Photos, frame it (Fill, Fit or Stretch) and loop it.
+
+<MarkerHeading n={7}>Layers</MarkerHeading>
+
+Every visual in your video is a layer: spectrums, particles, text, your cover art and more. Each row is one layer, drawn over the ones above it.
+
+- **Tap** a row to select the layer.
+- **Drag the handles** on either end of a selected row to change when the layer starts and ends.
+- **Touch and hold** a row to move it in time, or drag it up or down to change which layer is in front.
+- **Pinch** the timeline to zoom in and out.
+
+**Add Layer** is the last row of the timeline. Scroll down to reach it.
+
+<MarkerHeading n={8}>Full-Screen Preview</MarkerHeading>
+
+Plays your video over the whole screen, without the editor around it.
+
+<MarkerHeading n={9}>Camera</MarkerHeading>
+
+The shape of your video, under **Orientation**: 9:16 Portrait for TikTok, Reels and Shorts, 16:9 Landscape for YouTube, and 4:5, 1:1, 4:3 and 21:6. Below it, the camera that looks at your layers: **Turn**, **Tilt**, **Distance** and **Field of view**, with **Reset Camera** to start over.
+
+<MarkerHeading n={10}>Effects</MarkerHeading>
+
+Effects for the whole video, such as glow, blur, VHS or camera shake. Layers have effects of their own too.
+
+<MarkerHeading n={11}>Play</MarkerHeading>
+
+Plays and pauses the video with your song. It stays in the same place whatever you have selected.
+
+## With a layer selected
+
+<Screenshot
+  src="/screenshots/handbook/editor-layer.png"
+  alt="The editor with the Particle Ring layer selected: Delete, Undo and Redo, Rename and Duplicate at the top, the layer's box on the preview, and Back, Placement, Settings, Effects and Play at the bottom"
+  markers={[
+    { x: 0.165, y: 0.075 },
+    { x: 0.5, y: 0.058 },
+    { x: 0.76, y: 0.058 },
+    { x: 0.9, y: 0.058 },
+    { x: 0.39, y: 0.218 },
+    { x: 0.06, y: 0.792 },
+    { x: 0.125, y: 0.885 },
+    { x: 0.355, y: 0.9 },
+    { x: 0.497, y: 0.9 },
+    { x: 0.64, y: 0.9 },
+    { x: 0.87, y: 0.9 },
+  ]}
+/>
+
+<MarkerHeading n={1}>Delete</MarkerHeading>
+
+Removes the layer, after you confirm.
+
+<MarkerHeading n={2}>Undo and Redo</MarkerHeading>
+
+Step back and forward through your changes to this layer, from when you selected it.
+
+<MarkerHeading n={3}>Rename</MarkerHeading>
+
+Gives the layer a name of its own, shown on its row. Text and image layers have no Rename: their rows show their words or their picture instead.
+
+<MarkerHeading n={4}>Duplicate</MarkerHeading>
+
+Makes a copy of the layer, with the same settings and effects.
+
+<MarkerHeading n={5}>The layer's box</MarkerHeading>
+
+The dashed box shows where the layer sits. Drag inside the preview to move it, and pinch to make it bigger or smaller.
+
+<MarkerHeading n={6}>The selected row</MarkerHeading>
+
+Outlined in yellow, with a handle on each end for trimming.
+
+<MarkerHeading n={7}>Back</MarkerHeading>
+
+Deselects the layer and brings back the buttons for the whole video.
+
+<MarkerHeading n={8}>Placement</MarkerHeading>
+
+Where the layer sits and how it moves: its size, rotation and angles, how much it pulses with the beat, and its opacity.
+
+<MarkerHeading n={9}>Settings</MarkerHeading>
+
+Everything that makes this layer what it is: colours, shapes, how it reacts to the music. Each kind of layer has its own.
+
+<MarkerHeading n={10}>Effects</MarkerHeading>
+
+Effects on this layer alone, such as a glow around a spectrum.
+
+<MarkerHeading n={11}>Play</MarkerHeading>
+
+The same Play button, in the same place.
+
+<Tip>Selecting the background row shows the same bottom buttons as a layer does. It has no Delete, Rename or Duplicate: the background is always there.</Tip>

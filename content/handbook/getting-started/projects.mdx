@@ -1,0 +1,81 @@
+export const meta = {
+  title: "Projects",
+  description:
+    "The Projects screen in Vibely: start a blank project, import a template, preview and use templates, and open, rename, duplicate, share or delete your projects.",
+  order: 1,
+};
+
+The Projects screen is the first thing you see when you open Vibely. It holds everything you have made, and the templates to start something new.
+
+A project is one video in the making: a song, an optional background video, and the layers and effects you add on top. Vibely saves a project by itself as you work, so there is no Save button. A project is kept as soon as it has a song.
+
+Until you close it, a banner at the top, **New: the Vibely Handbook**, opens this handbook with **Open Handbook**. Its **X** hides it until you next open Vibely.
+
+<Screenshot
+  src="/screenshots/handbook/projects.png"
+  alt="The Projects screen: the New Blank Project, Import Template and menu buttons, no projects yet, and the first templates"
+  markers={[
+    { x: 0.628, y: 0.137 },
+    { x: 0.761, y: 0.137 },
+    { x: 0.904, y: 0.137 },
+    { x: 0.305, y: 0.216 },
+    { x: 0.355, y: 0.524 },
+  ]}
+/>
+
+<MarkerHeading n={1}>New Blank Project</MarkerHeading>
+
+The **+** button opens an empty project. Add a song first, then build it up layer by layer. A blank project is only kept once it has a song.
+
+<MarkerHeading n={2}>Import Template</MarkerHeading>
+
+Opens a template file someone shared with you, made with **Share as Template**. It opens as a new project with Vibely's demo song.
+
+<MarkerHeading n={3}>Menu</MarkerHeading>
+
+The **⋯** button holds:
+
+- **Settings**
+- **Education**: the **Handbook** you are reading, and **Tutorials** with step-by-step guides. Both open on this website.
+- **Leave a Review** and **Recommend Vibely**
+- **Get Support**, to write to us
+- **Legal**: the Privacy Policy, the Terms and the Credits for the music, photos, fonts and code Vibely uses
+
+<Screenshot
+  src="/screenshots/handbook/projects-menu.png"
+  alt="The menu, with Handbook and Tutorials under Education"
+  crop={{ x: 0.3, y: 0.06, w: 0.7, h: 0.62 }}
+  outline={{ x: 0.355, y: 0.152, w: 0.59, h: 0.145 }}
+/>
+
+<MarkerHeading n={4}>Projects</MarkerHeading>
+
+Before you make your first project, the section says **No Projects**. After that it lists your projects, newest first. Each row shows a picture of the project, its name, its shape (such as 9:16 or 16:9) and when you last changed it.
+
+Tap a project to open its menu:
+
+- **Open** opens it in the editor.
+- **Rename** gives it a new name.
+- **Duplicate** makes a copy you can change without touching the original.
+- **Share as Template** saves the project as a template file you can send to a friend or keep as a starting point. The file keeps the layers and effects. Your song becomes Vibely's demo song, the background video is left out, and your own pictures become the Vibely logo.
+- **Delete** removes the project after you confirm.
+
+You can also swipe a project to the left to delete it.
+
+<Caution>Deleting a project can't be undone, and swiping it away deletes it without asking.</Caution>
+
+The list shows your five most recent projects. When you have more, **Show All** at the end of the list shows every project, and **Show Less** folds it again.
+
+<MarkerHeading n={5}>Templates</MarkerHeading>
+
+The quickest way to start. Every numbered card is a finished design you can make your own.
+
+Tap a template to see it play with Vibely's demo song. Tap the video to pause it. When you like it, tap **Use Template**: Vibely makes a new project from it and opens it in the editor, where you swap in your own song. Close the preview with the **X** to keep browsing; nothing is saved until you use a template.
+
+<Screenshot
+  src="/screenshots/handbook/template-preview.png"
+  alt="A template playing in its preview, with Use Template at the bottom"
+  outline={{ x: 0.035, y: 0.882, w: 0.93, h: 0.06 }}
+/>
+
+<Tip>Each Use Template makes a new project, so you can start from the same template as many times as you like.</Tip>
