@@ -38,8 +38,6 @@ export default function SiteLayout({
             <Link href="/privacy">Privacy</Link>
             <span>·</span>
             <Link href="/terms">Terms</Link>
-            <span>·</span>
-            <Link href="/impressum">Impressum</Link>
           </div>
           <p className="font-mono text-xs">
             Built with ❤️ by Aibek &copy; {new Date().getFullYear()}

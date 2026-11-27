@@ -181,8 +181,7 @@ export default function PrivacyPage() {
         <strong>Legal basis.</strong> Our legitimate interest in providing an
         app that works reliably (Article 6(1)(f) GDPR). Storing and reading the
         installation ID on your device is strictly necessary for the crash
-        reporting you can control in the app (Section 25(2) no. 2 of the German
-        Telecommunications Digital Services Data Protection Act, TDDDG).
+        reporting you can control in the app.
       </P>
       <P>
         <strong>Your choice.</strong> You can turn crash reports off at any time
@@ -261,9 +260,8 @@ export default function PrivacyPage() {
         get stuck and what goes wrong, so we can improve Vibely.
       </P>
       <P>
-        <strong>Legal basis.</strong> Your consent (Article 6(1)(a) GDPR, and
-        Section 25(1) TDDDG for storing and reading the app instance ID on
-        your device).
+        <strong>Legal basis.</strong> Your consent (Article 6(1)(a) GDPR), which
+        also covers storing and reading the app instance ID on your device.
       </P>
       <P>
         <strong>Your choice.</strong> You can withdraw your consent at any time

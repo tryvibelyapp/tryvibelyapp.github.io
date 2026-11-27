@@ -4,7 +4,6 @@ import {
   Address,
   EFFECTIVE_DATE,
   Email,
-  LEGAL_ADDRESS,
   LEGAL_NAME,
   LegalPage,
   Note,
@@ -31,8 +30,8 @@ export default function TermsPage() {
 
       <Section>1. Who we are and what these terms cover</Section>
       <P>
-        1.1 Vibely is provided by {LEGAL_NAME}, {LEGAL_ADDRESS.join(", ")},{" "}
-        <Email /> (“we”, “us”).
+        1.1 Vibely is provided by {LEGAL_NAME}, <Email /> (“we”,
+        “us”).
       </P>
       <P>
         1.2 These Terms of Use (“Terms”) apply to your use of the
@@ -92,8 +91,7 @@ export default function TermsPage() {
         </li>
         <li>
           decompile, reverse engineer or modify the app, except where the law
-          expressly allows this (for example Section 69e of the German Copyright
-          Act),
+          expressly allows this,
         </li>
         <li>
           bypass, disable or interfere with in-app purchases, export limits,
@@ -280,8 +278,9 @@ export default function TermsPage() {
       <Section>9. Our liability</Section>
       <P>
         9.1 We are liable without limitation for damage caused intentionally or
-        through gross negligence, for injury to life, body or health, under the
-        German Product Liability Act, and where we have given a guarantee.
+        through gross negligence, for injury to life, body or health, where
+        mandatory product liability law applies, and where we have given a
+        guarantee.
       </P>
       <P>
         9.2 For slight negligence, we are only liable if we breach an essential
@@ -376,21 +375,13 @@ export default function TermsPage() {
 
       <Section>13. Law and disputes</Section>
       <P>
-        13.1 These Terms are governed by the laws of the Federal Republic of
-        Germany, excluding the UN Convention on Contracts for the International
-        Sale of Goods. If you are a consumer, this choice of law does not take
-        away the protection of mandatory laws of the country where you usually
-        live.
+        13.1 If you are a consumer, nothing in these Terms takes away the
+        protection of the mandatory laws of the country where you usually live,
+        and you may bring claims in the courts where you live.
       </P>
       <P>
-        13.2 If you are a merchant, a legal entity under public law or a special
-        fund under public law, the exclusive place of jurisdiction is our place
-        of residence. If you are a consumer, you may bring claims in the courts
-        where you live, and the statutory rules on jurisdiction apply.
-      </P>
-      <P>
-        13.3 We are not willing or obliged to take part in dispute resolution
-        proceedings before a consumer arbitration board.
+        13.2 If you have a problem with Vibely, please contact us first at{" "}
+        <Email />, so we can try to solve it together.
       </P>
 
       <Section>14. Final provisions</Section>

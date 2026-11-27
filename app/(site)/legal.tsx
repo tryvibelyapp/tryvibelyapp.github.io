@@ -1,14 +1,9 @@
 import type { ReactNode } from "react";
 
-// Shared details and building blocks for the Privacy, Terms and Impressum pages.
+// Shared details and building blocks for the Privacy and Terms pages.
 
 export const LEGAL_NAME = "Aibek Mazhitov";
 export const LEGAL_EMAIL = "heyaibek@gmail.com";
-export const LEGAL_ADDRESS = [
-  "Friedenauer Höhe 22",
-  "12159 Berlin",
-  "Germany",
-];
 export const EFFECTIVE_DATE = "27 November 2026";
 
 export function LegalPage({ children }: { children: ReactNode }) {
@@ -85,15 +80,5 @@ export function Email() {
 }
 
 export function Address() {
-  return (
-    <>
-      {LEGAL_NAME}
-      {LEGAL_ADDRESS.map((line) => (
-        <span key={line}>
-          <br />
-          {line}
-        </span>
-      ))}
-    </>
-  );
+  return <>{LEGAL_NAME}</>;
 }
