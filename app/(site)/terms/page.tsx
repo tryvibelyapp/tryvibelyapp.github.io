@@ -36,7 +36,7 @@ export default function TermsPage() {
       </P>
       <P>
         1.2 These Terms of Use (“Terms”) apply to your use of the
-        Vibely app for iPhone and iPad, the website tryvibely.app and our
+        Vibely app for iPhone, iPad and Mac, the website tryvibely.app and our
         promotions. By downloading or using Vibely, you agree to these Terms. If
         you do not agree, please do not use Vibely.
       </P>
@@ -68,7 +68,9 @@ export default function TermsPage() {
       <P>
         2.3 Vibely offers free features and paid features (“Vibely
         Pro”). The app shows which features, export options and limits
-        apply to the free version and to Vibely Pro.
+        apply to the free version and to Vibely Pro. Videos exported without
+        Vibely Pro can be shorter, in a lower resolution and frame rate, and
+        carry a Vibely watermark.
       </P>
 
       <Section>3. Your license to use Vibely</Section>
@@ -95,7 +97,8 @@ export default function TermsPage() {
         </li>
         <li>
           bypass, disable or interfere with in-app purchases, export limits,
-          license checks or other technical protections,
+          the watermark on free exports, license checks or other technical
+          protections,
         </li>
         <li>
           extract the app’s built-in content (templates, shaders, effects,
@@ -176,8 +179,8 @@ export default function TermsPage() {
       <Section>6. Vibely Pro, subscriptions and purchases</Section>
       <P>
         6.1 <strong>Offers.</strong> Vibely Pro is available as an auto-renewing
-        subscription (weekly, monthly or yearly) or as a one-time lifetime
-        purchase, as shown in the app. The price, billing period and any free
+        subscription or as a one-time lifetime purchase. The app shows which
+        billing periods are offered. The price, billing period and any free
         trial or introductory offer are shown before you buy. Prices include any
         taxes Apple charges.
       </P>
@@ -226,8 +229,9 @@ export default function TermsPage() {
       <P>
         6.8 <strong>Changes to Vibely Pro.</strong> We continue to develop
         Vibely and may add, change or remove features. We will not remove a core
-        feature of Vibely Pro (such as unlimited exports or higher export
-        resolution) during a period you have already paid for, unless this is
+        feature of Vibely Pro (such as full-length exports without the
+        watermark or higher export resolution) during a period you have
+        already paid for, unless this is
         needed for legal, security or technical reasons outside our control.
         Your statutory rights for digital products remain unaffected.
       </P>
@@ -257,13 +261,13 @@ export default function TermsPage() {
       <Section>8. Availability and updates</Section>
       <P>
         8.1 We try to keep Vibely working well, but we cannot promise that it is
-        always available, free of errors or compatible with every device, iOS
-        version, file format or third-party app. Exporting can take time and may
+        always available, free of errors or compatible with every device,
+        operating system version, file format or third-party app. Exporting can take time and may
         fail, for example if your device is low on storage.
       </P>
       <P>
         8.2 We may release updates to fix bugs, improve security, add features
-        or keep Vibely compatible with new iOS versions. Some updates may be
+        or keep Vibely compatible with new versions of iOS, iPadOS and macOS. Some updates may be
         needed to keep using the app.
       </P>
       <P>

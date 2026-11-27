@@ -29,9 +29,9 @@ export default function PrivacyPage() {
       <Note>Effective date: {EFFECTIVE_DATE}</Note>
       <P>
         This policy explains what happens to your data when you use the Vibely
-        app for iPhone and iPad, the website tryvibely.app, our support, and our
-        free Vibely Pro promotion. It is written to be complete: if something is
-        not described here, Vibely does not do it.
+        app for iPhone, iPad and Mac, the website tryvibely.app and our support.
+        It is written to be complete: if something is not described here, Vibely
+        does not do it.
       </P>
 
       <Section>1. Who is responsible</Section>
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
         <li>
           <strong>Your work stays on your device.</strong> Songs, videos,
           photos, text, projects and exported videos are stored only on your
-          iPhone or iPad. We never upload them and we cannot see them.
+          iPhone, iPad or Mac. We never upload them and we cannot see them.
         </li>
         <li>
           <strong>No ads, no tracking, no selling.</strong> The app contains no
@@ -89,7 +89,7 @@ export default function PrivacyPage() {
         <li>songs and audio you import, including audio taken from videos,</li>
         <li>
           background videos and images you pick from your photo library, the
-          Files app or Unsplash,
+          Files app or Unsplash, or on a Mac from files you choose,
         </li>
         <li>text you type, layers, effects and all project settings,</li>
         <li>videos you export.</li>
@@ -120,6 +120,11 @@ export default function PrivacyPage() {
         Files app, the app only reads the file you pick.
       </P>
       <P>
+        <strong>On a Mac.</strong> Vibely does not access your photo library on
+        a Mac. It reads only the songs, videos, images, fonts and templates you
+        choose in an Open window, and saves exported videos where you choose.
+      </P>
+      <P>
         Vibely does <strong>not</strong> access your microphone, camera,
         contacts, location, calendar, health data or music library, and does not
         ask for permission to track you (App Tracking Transparency). The app
@@ -138,7 +143,10 @@ export default function PrivacyPage() {
           the technical crash details (which part of the app code failed and
           why),
         </li>
-        <li>device model, iOS version, app version and build number,</li>
+        <li>
+          device model, operating system version (iOS, iPadOS or macOS), app
+          version and build number,
+        </li>
         <li>
           technical state at the time of the crash (for example free memory and
           storage, device orientation, whether the app was in the foreground),
@@ -181,7 +189,7 @@ export default function PrivacyPage() {
         in the app under Projects menu {">"} Settings {">"} Privacy {">"} Share
         Crash Reports. When you turn it off, reports that were not sent yet are
         deleted and no further reports are sent. You can also object at any time
-        (see Section 14).
+        (see Section 13).
       </P>
       <P>
         <strong>How long.</strong> Google keeps crash reports for 90 days, then
@@ -226,11 +234,11 @@ export default function PrivacyPage() {
         </li>
         <li>
           events Firebase records by itself: first launch, app sessions and
-          their length, which screens are shown, app and iOS updates, and
+          their length, which screens are shown, app and system updates, and
           in-app purchases (product, price and currency, never who paid),
         </li>
         <li>
-          device model, iOS version, app version, language, and your
+          device model, operating system version, app version, language, and your
           approximate region (country and city), which Google works out from
           your IP address,
         </li>
@@ -301,7 +309,8 @@ export default function PrivacyPage() {
 
       <Section>8. Unsplash photos</Section>
       <P>
-        In the editor you can search Unsplash for free photos. When you do this,
+        In the editor on iPhone and iPad you can search Unsplash for free
+        photos. When you do this,
         your device connects directly to Unsplash Inc. (Canada). Unsplash
         receives your search terms, the photos you view and download, your IP
         address and basic technical information about your device and app, as
@@ -319,8 +328,9 @@ export default function PrivacyPage() {
       <Section>9. Sharing, templates and other apps</Section>
       <P>
         <strong>Exported videos.</strong> You decide where your videos go. When
-        you save a video to Photos or the Files app, or share it through the iOS
-        share sheet, the video goes where you send it. We receive nothing.
+        you save a video to Photos, the Files app or a folder on your Mac, or
+        share it through the system share sheet, the video goes where you send
+        it. We receive nothing.
       </P>
       <P>
         <strong>TikTok, Instagram and YouTube buttons.</strong> On the share
@@ -362,7 +372,7 @@ export default function PrivacyPage() {
       </P>
       <P>
         <strong>Support link.</strong> When you open Support from the app, the
-        link includes your app version and iOS version (for example
+        link includes your app version and system version (for example
         “app_version=4.0.0&os_version=26.1”), so we can see which
         version you are asking about if you contact us. This contains no
         personal information.
@@ -397,67 +407,10 @@ export default function PrivacyPage() {
         them longer by law.
       </P>
 
-      <Section>12. Free Vibely Pro promotion</Section>
-      <P>
-        From time to time we give Vibely Pro offer codes to people who follow
-        our TikTok account and join our Discord server. Taking part is voluntary
-        and only happens if you fill in the sign-up form.
-      </P>
-      <P>
-        <strong>What we collect.</strong> Through the sign-up form (a Google
-        Form): your email address, full name, TikTok username, Discord username
-        and how you found out about the offer, plus the time you submitted it.
-      </P>
-      <P>
-        <strong>What we do with it.</strong>
-      </P>
-      <OL>
-        <li>
-          We check whether your TikTok username is in the follower list of our
-          own TikTok account. We download this list from TikTok’s data
-          export for our account.
-        </li>
-        <li>
-          We check whether your Discord username is a member of our Discord
-          server, using Discord’s interface for server owners.
-        </li>
-        <li>
-          We email you either an offer code or a message telling you which step
-          is still missing.
-        </li>
-        <li>
-          We record in the sign-up sheet whether we sent you a code, so that
-          each person receives only one code.
-        </li>
-      </OL>
-      <P>
-        A script prepares these checks, and the developer reviews and approves
-        every email before it is sent. No decision is made solely by automated
-        means.
-      </P>
-      <P>
-        <strong>Legal basis.</strong> Handling the promotion you signed up for
-        (Article 6(1)(b) GDPR) and our legitimate interest in preventing people
-        from claiming more than one code (Article 6(1)(f) GDPR).
-      </P>
-      <P>
-        <strong>Recipients.</strong> Google (Google Forms, Google Sheets and
-        Gmail), Discord Inc. (USA) for the membership check, and TikTok for the
-        follower list of our own account.
-      </P>
-      <P>
-        <strong>How long.</strong> We keep your submission until 12 months after
-        the promotion ends, so we can prevent duplicate claims, then we delete
-        it.
-      </P>
-      <P>
-        <strong>Age.</strong> You must be at least 16 years old to take part.
-      </P>
-
-      <Section>13. International transfers</Section>
+      <Section>12. International transfers</Section>
       <P>
         Some of the providers above are based in the USA or send data there
-        (Google LLC, GitHub, Inc., Discord Inc.). Where a provider is certified
+        (Google LLC, GitHub, Inc.). Where a provider is certified
         under the EU-U.S. Data Privacy Framework, the transfer is based on the
         European Commission’s adequacy decision (Article 45 GDPR).
         Otherwise, it is based on the European Commission’s Standard
@@ -465,7 +418,7 @@ export default function PrivacyPage() {
         covered by an adequacy decision.
       </P>
 
-      <Section>14. Your rights</Section>
+      <Section>13. Your rights</Section>
       <P>Under the GDPR you have the right to:</P>
       <UL>
         <li>
@@ -509,7 +462,7 @@ export default function PrivacyPage() {
         GDPR).
       </P>
 
-      <Section>15. What Vibely does not do</Section>
+      <Section>14. What Vibely does not do</Section>
       <UL>
         <li>no advertising and no ad networks,</li>
         <li>
@@ -530,25 +483,24 @@ export default function PrivacyPage() {
         </li>
       </UL>
 
-      <Section>16. Children</Section>
+      <Section>15. Children</Section>
       <P>
         The app does not require any personal data, so it can be used by anyone
         the App Store age rating allows. We do not knowingly collect personal
-        data from children. The promotion in Section 12 is only for people aged
-        16 and over. If you believe a child has sent us personal data, please
+        data from children. If you believe a child has sent us personal data, please
         contact us and we will delete it.
       </P>
 
-      <Section>17. Security</Section>
+      <Section>16. Security</Section>
       <P>
         Data sent to Crashlytics, Firebase Analytics, Unsplash and our website is encrypted in
-        transit (HTTPS). Access to the promotion sheet and support email is
-        limited to the developer. Content in the app stays on your device and is
-        protected by your device’s own security, such as your passcode and
-        iOS data protection.
+        transit (HTTPS). Access to the support email is limited to the
+        developer. Content in the app stays on your device and is protected by
+        your device’s own security, such as your passcode and the data
+        protection of iOS, iPadOS and macOS.
       </P>
 
-      <Section>18. Changes to this policy</Section>
+      <Section>17. Changes to this policy</Section>
       <P>
         We update this policy when Vibely changes how it handles data, for
         example if we add a new feature or service provider. The effective date
@@ -557,7 +509,7 @@ export default function PrivacyPage() {
         takes effect.
       </P>
 
-      <Section>19. Contact</Section>
+      <Section>18. Contact</Section>
       <P>
         <Address />
         <br />
