@@ -28,8 +28,8 @@ export default function Home() {
           >
             @dmsongs5
           </a>{" "}
-          built 700K followers and 30M TikTok likes using Vibely. Now it's your
-          turn. 12 visualizers. 4K/60fps export.
+          built 715.1K followers and 33.2M TikTok likes using Vibely. Now it's
+          your turn. 17 visualizers, 8 patterns, 41 effects. 4K/60fps export.
         </p>
         <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
           Your music deserves great visuals.
