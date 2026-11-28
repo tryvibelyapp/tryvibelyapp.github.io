@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 export const LEGAL_NAME = "Aibek Mazhitov";
 export const LEGAL_EMAIL = "heyaibek@gmail.com";
 export const EFFECTIVE_DATE = "27 November 2026";
+export const PRIVACY_EFFECTIVE_DATE = "28 November 2026";
 
 export function LegalPage({ children }: { children: ReactNode }) {
   return (

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {
   A,
   Address,
-  EFFECTIVE_DATE,
+  PRIVACY_EFFECTIVE_DATE,
   Email,
   LegalPage,
   Note,
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
     <LegalPage>
       <Title>Privacy Policy</Title>
       <P>Vibely - Music Visualizer (“Vibely”, “the app”)</P>
-      <Note>Effective date: {EFFECTIVE_DATE}</Note>
+      <Note>Effective date: {PRIVACY_EFFECTIVE_DATE}</Note>
       <P>
         This policy explains what happens to your data when you use the Vibely
         app for iPhone, iPad and Mac, the website tryvibely.app and our support.
@@ -192,7 +192,9 @@ export default function PrivacyPage() {
       </P>
       <P>
         <strong>How long.</strong> Google keeps crash reports for 90 days, then
-        deletes them.
+        deletes them. To analyze them, we copy them to Google BigQuery, a Google
+        database service covered by the same terms, and to our own database,
+        where they are also deleted after 90 days.
       </P>
       <P>
         <strong>Processor.</strong> Google processes this data on our behalf
@@ -272,9 +274,10 @@ export default function PrivacyPage() {
       <P>
         <strong>How long.</strong> Google deletes usage data linked to the app
         instance ID after 14 months and keeps only totals that cannot be traced
-        back to an installation (for example how many people used an effect). To analyze it, we may copy it to Google BigQuery, a Google
-        database service covered by the same terms, where it is also deleted
-        after 14 months.
+        back to an installation (for example how many people used an effect). To
+        analyze it, we copy it to Google BigQuery, a Google database service
+        covered by the same terms, and to our own database. In both, data
+        linked to an installation is also deleted after 14 months.
       </P>
       <P>
         <strong>Processor.</strong> Google processes this data on our behalf
